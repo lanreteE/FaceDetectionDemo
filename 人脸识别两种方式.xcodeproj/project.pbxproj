@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0020F9623385DCA00A2288B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0020F9523385DCA00A2288B /* AppDelegate.swift */; };
+		B0020F9823385DCA00A2288B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0020F9723385DCA00A2288B /* ViewController.swift */; };
+		B0020F9B23385DCA00A2288B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0020F9923385DCA00A2288B /* Main.storyboard */; };
+		B0020F9D23385DCC00A2288B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0020F9C23385DCC00A2288B /* Assets.xcassets */; };
+		B0020FA023385DCC00A2288B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0020F9E23385DCC00A2288B /* LaunchScreen.storyboard */; };
+		B0020FAB23385DCC00A2288B /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0020FAA23385DCC00A2288B /* ________Tests.swift */; };
+		B0020FB623385DCC00A2288B /* ________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0020FB523385DCC00A2288B /* ________UITests.swift */; };
+		B0021041233F42F200A2288B /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0021040233F42F200A2288B /* NextViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0020FA723385DCC00A2288B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0020F8A23385DCA00A2288B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0020F9123385DCA00A2288B;
+			remoteInfo = "人脸识别两种方式";
+		};
+		B0020FB223385DCC00A2288B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0020F8A23385DCA00A2288B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0020F9123385DCA00A2288B;
+			remoteInfo = "人脸识别两种方式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0020F9223385DCA00A2288B /* 人脸识别两种方式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "人脸识别两种方式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0020F9523385DCA00A2288B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0020F9723385DCA00A2288B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0020F9A23385DCA00A2288B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0020F9C23385DCC00A2288B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0020F9F23385DCC00A2288B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0020FA123385DCC00A2288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0020FA623385DCC00A2288B /* 人脸识别两种方式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "人脸识别两种方式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0020FAA23385DCC00A2288B /* ________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________Tests.swift"; sourceTree = "<group>"; };
+		B0020FAC23385DCC00A2288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0020FB123385DCC00A2288B /* 人脸识别两种方式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "人脸识别两种方式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0020FB523385DCC00A2288B /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
+		B0020FB723385DCC00A2288B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0021040233F42F200A2288B /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0020F8F23385DCA00A2288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020FA323385DCC00A2288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020FAE23385DCC00A2288B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0020F8923385DCA00A2288B = {
+			isa = PBXGroup;
+			children = (
+				B0020F9423385DCA00A2288B /* 人脸识别两种方式 */,
+				B0020FA923385DCC00A2288B /* 人脸识别两种方式Tests */,
+				B0020FB423385DCC00A2288B /* 人脸识别两种方式UITests */,
+				B0020F9323385DCA00A2288B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0020F9323385DCA00A2288B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0020F9223385DCA00A2288B /* 人脸识别两种方式.app */,
+				B0020FA623385DCC00A2288B /* 人脸识别两种方式Tests.xctest */,
+				B0020FB123385DCC00A2288B /* 人脸识别两种方式UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0020F9423385DCA00A2288B /* 人脸识别两种方式 */ = {
+			isa = PBXGroup;
+			children = (
+				B0020F9523385DCA00A2288B /* AppDelegate.swift */,
+				B0020F9723385DCA00A2288B /* ViewController.swift */,
+				B0021040233F42F200A2288B /* NextViewController.swift */,
+				B0020F9923385DCA00A2288B /* Main.storyboard */,
+				B0020F9C23385DCC00A2288B /* Assets.xcassets */,
+				B0020F9E23385DCC00A2288B /* LaunchScreen.storyboard */,
+				B0020FA123385DCC00A2288B /* Info.plist */,
+			);
+			path = "人脸识别两种方式";
+			sourceTree = "<group>";
+		};
+		B0020FA923385DCC00A2288B /* 人脸识别两种方式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0020FAA23385DCC00A2288B /* ________Tests.swift */,
+				B0020FAC23385DCC00A2288B /* Info.plist */,
+			);
+			path = "人脸识别两种方式Tests";
+			sourceTree = "<group>";
+		};
+		B0020FB423385DCC00A2288B /* 人脸识别两种方式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0020FB523385DCC00A2288B /* ________UITests.swift */,
+				B0020FB723385DCC00A2288B /* Info.plist */,
+			);
+			path = "人脸识别两种方式UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0020F9123385DCA00A2288B /* 人脸识别两种方式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0020FBA23385DCC00A2288B /* Build configuration list for PBXNativeTarget "人脸识别两种方式" */;
+			buildPhases = (
+				B0020F8E23385DCA00A2288B /* Sources */,
+				B0020F8F23385DCA00A2288B /* Frameworks */,
+				B0020F9023385DCA00A2288B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "人脸识别两种方式";
+			productName = "人脸识别两种方式";
+			productReference = B0020F9223385DCA00A2288B /* 人脸识别两种方式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0020FA523385DCC00A2288B /* 人脸识别两种方式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0020FBD23385DCC00A2288B /* Build configuration list for PBXNativeTarget "人脸识别两种方式Tests" */;
+			buildPhases = (
+				B0020FA223385DCC00A2288B /* Sources */,
+				B0020FA323385DCC00A2288B /* Frameworks */,
+				B0020FA423385DCC00A2288B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0020FA823385DCC00A2288B /* PBXTargetDependency */,
+			);
+			name = "人脸识别两种方式Tests";
+			productName = "人脸识别两种方式Tests";
+			productReference = B0020FA623385DCC00A2288B /* 人脸识别两种方式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0020FB023385DCC00A2288B /* 人脸识别两种方式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0020FC023385DCC00A2288B /* Build configuration list for PBXNativeTarget "人脸识别两种方式UITests" */;
+			buildPhases = (
+				B0020FAD23385DCC00A2288B /* Sources */,
+				B0020FAE23385DCC00A2288B /* Frameworks */,
+				B0020FAF23385DCC00A2288B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0020FB323385DCC00A2288B /* PBXTargetDependency */,
+			);
+			name = "人脸识别两种方式UITests";
+			productName = "人脸识别两种方式UITests";
+			productReference = B0020FB123385DCC00A2288B /* 人脸识别两种方式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0020F8A23385DCA00A2288B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "王译";
+				TargetAttributes = {
+					B0020F9123385DCA00A2288B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B0020FA523385DCC00A2288B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B0020F9123385DCA00A2288B;
+					};
+					B0020FB023385DCC00A2288B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B0020F9123385DCA00A2288B;
+					};
+				};
+			};
+			buildConfigurationList = B0020F8D23385DCA00A2288B /* Build configuration list for PBXProject "人脸识别两种方式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0020F8923385DCA00A2288B;
+			productRefGroup = B0020F9323385DCA00A2288B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0020F9123385DCA00A2288B /* 人脸识别两种方式 */,
+				B0020FA523385DCC00A2288B /* 人脸识别两种方式Tests */,
+				B0020FB023385DCC00A2288B /* 人脸识别两种方式UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0020F9023385DCA00A2288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020FA023385DCC00A2288B /* LaunchScreen.storyboard in Resources */,
+				B0020F9D23385DCC00A2288B /* Assets.xcassets in Resources */,
+				B0020F9B23385DCA00A2288B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020FA423385DCC00A2288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020FAF23385DCC00A2288B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0020F8E23385DCA00A2288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020F9823385DCA00A2288B /* ViewController.swift in Sources */,
+				B0021041233F42F200A2288B /* NextViewController.swift in Sources */,
+				B0020F9623385DCA00A2288B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020FA223385DCC00A2288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020FAB23385DCC00A2288B /* ________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020FAD23385DCC00A2288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020FB623385DCC00A2288B /* ________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0020FA823385DCC00A2288B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0020F9123385DCA00A2288B /* 人脸识别两种方式 */;
+			targetProxy = B0020FA723385DCC00A2288B /* PBXContainerItemProxy */;
+		};
+		B0020FB323385DCC00A2288B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0020F9123385DCA00A2288B /* 人脸识别两种方式 */;
+			targetProxy = B0020FB223385DCC00A2288B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0020F9923385DCA00A2288B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0020F9A23385DCA00A2288B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0020F9E23385DCC00A2288B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0020F9F23385DCC00A2288B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0020FB823385DCC00A2288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0020FB923385DCC00A2288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0020FBB23385DCC00A2288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJSDXHD3WV;
+				INFOPLIST_FILE = "人脸识别两种方式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyi.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0020FBC23385DCC00A2288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJSDXHD3WV;
+				INFOPLIST_FILE = "人脸识别两种方式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyi.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0020FBE23385DCC00A2288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJSDXHD3WV;
+				INFOPLIST_FILE = "人脸识别两种方式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyi.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/人脸识别两种方式.app/人脸识别两种方式";
+			};
+			name = Debug;
+		};
+		B0020FBF23385DCC00A2288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJSDXHD3WV;
+				INFOPLIST_FILE = "人脸识别两种方式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyi.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/人脸识别两种方式.app/人脸识别两种方式";
+			};
+			name = Release;
+		};
+		B0020FC123385DCC00A2288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJSDXHD3WV;
+				INFOPLIST_FILE = "人脸识别两种方式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyi.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "人脸识别两种方式";
+			};
+			name = Debug;
+		};
+		B0020FC223385DCC00A2288B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJSDXHD3WV;
+				INFOPLIST_FILE = "人脸识别两种方式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangyi.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "人脸识别两种方式";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0020F8D23385DCA00A2288B /* Build configuration list for PBXProject "人脸识别两种方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0020FB823385DCC00A2288B /* Debug */,
+				B0020FB923385DCC00A2288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0020FBA23385DCC00A2288B /* Build configuration list for PBXNativeTarget "人脸识别两种方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0020FBB23385DCC00A2288B /* Debug */,
+				B0020FBC23385DCC00A2288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0020FBD23385DCC00A2288B /* Build configuration list for PBXNativeTarget "人脸识别两种方式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0020FBE23385DCC00A2288B /* Debug */,
+				B0020FBF23385DCC00A2288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0020FC023385DCC00A2288B /* Build configuration list for PBXNativeTarget "人脸识别两种方式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0020FC123385DCC00A2288B /* Debug */,
+				B0020FC223385DCC00A2288B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0020F8A23385DCA00A2288B /* Project object */;
+}
